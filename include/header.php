@@ -65,7 +65,8 @@
 								<?php } else { ?>
 								<a href="#" class="text-uppercase">Đăng kí</a>/<a href="#" class="text-uppercase">Đăng nhập</a>
 							</div>
-								<ul class="custom-menu" style="width: 240px;">
+						</div>
+								<ul class="custom-menu" style="max-width: 240px;">
 									<li><a href="../Ao_bong_da/form_login.php"><i class="fa fa-sign-in"></i> Đăng Nhập</a></li>
 									<li><a href="../Ao_bong_da/login.php"><i class="fa fa-user-plus"></i> Đăng Kí</a></li>
 									<!-- <li><a href="#"><i class="fa fa-google-plus"></i> Đăng Nhập Bằng G+</a></li>

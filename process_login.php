@@ -2,8 +2,7 @@
 	if (!empty($_POST['submit'])) {
 		$email = addslashes($_POST['email']);
 		$password = addslashes($_POST['password']);
-		$connect = mysqli_connect('localhost','root','','ao_bong_da');
-		mysqli_set_charset($connect,'utf8');
+		require_once 'include/connect_database.php';
 		$query = "select * from khach_hang where email='$email' and mat_khau = '$password'";
 		$result = mysqli_query($connect,$query);
 		$count = mysqli_num_rows($result);
